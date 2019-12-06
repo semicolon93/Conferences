@@ -21,7 +21,7 @@ steps:
     ArtifactName: Demo
 - task: AzurePowerShell@4
   inputs:
-    azureSubscription:'Azure Pass - Sponsorship (94833611-cef8-4b83-a82b-b2f4a39ccb38b)'
+    azureSubscription: 'Azure Pass - Sponsorship (94833611-cef8-4b83-a82b-b2f4a39ccb38b)'
     ScriptType: 'InlineScript'
     Inline: |
            Write-Host "Setting Security Protocol"
